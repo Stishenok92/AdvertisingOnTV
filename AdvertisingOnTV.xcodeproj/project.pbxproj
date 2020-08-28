@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB71CCCB24F90D7E00BD3D64 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB71CCCA24F90D7E00BD3D64 /* main.cpp */; };
+		AB71CCDB24F90DF900BD3D64 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB71CCD924F90DF800BD3D64 /* Main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,16 @@
 
 /* Begin PBXFileReference section */
 		AB71CCC724F90D7E00BD3D64 /* AdvertisingOnTV */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdvertisingOnTV; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB71CCCA24F90D7E00BD3D64 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AB71CCD124F90DF800BD3D64 /* Manipulators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Manipulators.h; sourceTree = "<group>"; };
+		AB71CCD224F90DF800BD3D64 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		AB71CCD324F90DF800BD3D64 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
+		AB71CCD424F90DF800BD3D64 /* Discount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Discount.h; sourceTree = "<group>"; };
+		AB71CCD524F90DF800BD3D64 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		AB71CCD624F90DF800BD3D64 /* TelevisionAgency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelevisionAgency.h; sourceTree = "<group>"; };
+		AB71CCD724F90DF800BD3D64 /* Constans.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constans.h; sourceTree = "<group>"; };
+		AB71CCD824F90DF800BD3D64 /* Advertiser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Advertiser.h; sourceTree = "<group>"; };
+		AB71CCD924F90DF800BD3D64 /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Main.cpp; path = ../../AddsOnTelevison/AddsOnTelevison/Main.cpp; sourceTree = "<group>"; };
+		AB71CCDA24F90DF900BD3D64 /* Telecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Telecast.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +66,16 @@
 		AB71CCC924F90D7E00BD3D64 /* AdvertisingOnTV */ = {
 			isa = PBXGroup;
 			children = (
-				AB71CCCA24F90D7E00BD3D64 /* main.cpp */,
+				AB71CCD824F90DF800BD3D64 /* Advertiser.h */,
+				AB71CCD724F90DF800BD3D64 /* Constans.h */,
+				AB71CCD424F90DF800BD3D64 /* Discount.h */,
+				AB71CCD224F90DF800BD3D64 /* Header.h */,
+				AB71CCD924F90DF800BD3D64 /* Main.cpp */,
+				AB71CCD124F90DF800BD3D64 /* Manipulators.h */,
+				AB71CCD324F90DF800BD3D64 /* Menu.h */,
+				AB71CCD524F90DF800BD3D64 /* Order.h */,
+				AB71CCDA24F90DF900BD3D64 /* Telecast.h */,
+				AB71CCD624F90DF800BD3D64 /* TelevisionAgency.h */,
 			);
 			path = AdvertisingOnTV;
 			sourceTree = "<group>";
@@ -119,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB71CCCB24F90D7E00BD3D64 /* main.cpp in Sources */,
+				AB71CCDB24F90DF900BD3D64 /* Main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
