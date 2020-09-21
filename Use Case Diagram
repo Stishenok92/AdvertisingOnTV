@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2020-09-21T23:07:18.422Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="aOShfxjEkZVhj8gDY9l7" version="13.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-21T23:12:46.230Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="VFqWoq-Y8ooGYFFcpENs" version="13.7.3" type="github">
   <diagram id="Q57opXv_nIFaSunZY0Hv" name="Page-1">
-    <mxGraphModel dx="1927" dy="1744" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1698" dy="1602" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dXboWiFUhqu7onUWlH8E-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="-140" y="230" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dXboWiFUhqu7onUWlH8E-2" value="Рекламодатель" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+        <mxCell id="dXboWiFUhqu7onUWlH8E-2" value="Исполнитель" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="819" y="366" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dXboWiFUhqu7onUWlH8E-4" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
@@ -350,6 +350,54 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="455" y="-238" as="sourcePoint" />
             <mxPoint x="453" y="-323" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sp_c9AhpYP40xEwVmBvs-70" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="594" y="491" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sp_c9AhpYP40xEwVmBvs-71" value="Удалить&lt;br&gt;Телепередачу" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="605.5" y="511" width="82" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sp_c9AhpYP40xEwVmBvs-72" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="594" y="668" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sp_c9AhpYP40xEwVmBvs-73" value="Просмотр всех телепередач&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="565.5" y="689" width="157" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sp_c9AhpYP40xEwVmBvs-74" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="sp_c9AhpYP40xEwVmBvs-72" source="sp_c9AhpYP40xEwVmBvs-70">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="779.4999999999841" y="682" as="sourcePoint" />
+            <mxPoint x="840.5" y="513" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sp_c9AhpYP40xEwVmBvs-75" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dXboWiFUhqu7onUWlH8E-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="844" y="376" as="sourcePoint" />
+            <mxPoint x="695" y="521" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sp_c9AhpYP40xEwVmBvs-76" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="435" y="668" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sp_c9AhpYP40xEwVmBvs-77" value="Указать номер телепередачи" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="442" y="685" width="84" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sp_c9AhpYP40xEwVmBvs-78" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sp_c9AhpYP40xEwVmBvs-70" target="sp_c9AhpYP40xEwVmBvs-76">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="654" y="561" as="sourcePoint" />
+            <mxPoint x="654" y="663" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sp_c9AhpYP40xEwVmBvs-81" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="784" y="559" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sp_c9AhpYP40xEwVmBvs-82" value="Просмотр всех&lt;br&gt;рекламодателей&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="757.5" y="577" width="157" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="sp_c9AhpYP40xEwVmBvs-83" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="sp_c9AhpYP40xEwVmBvs-81">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="834" y="465" as="sourcePoint" />
+            <mxPoint x="847" y="295" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
